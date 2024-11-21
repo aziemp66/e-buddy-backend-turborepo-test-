@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ebuddy/shared": ["../../packages/shared"]
+    }
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"]
+}
